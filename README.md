@@ -2,6 +2,16 @@
 
 Local music player for Android with a real liquid-glass UI (dark + light), built with Kotlin, Jetpack Compose and Media3.
 
+## Screenshots
+
+| Home | Songs | Player |
+| :---: | :---: | :---: |
+| <img src="Screenshots/Home.png" width="230"> | <img src="Screenshots/Songs.png" width="230"> | <img src="Screenshots/Player.png" width="230"> |
+| **Library** | **Search** | **Effects** |
+| <img src="Screenshots/Library.png" width="230"> | <img src="Screenshots/Search.png" width="230"> | <img src="Screenshots/Effects.png" width="230"> |
+| **Display options** | **8D audio** | **Settings** |
+| <img src="Screenshots/DisplayOptions.png" width="230"> | <img src="Screenshots/8DEffect.png" width="230"> | <img src="Screenshots/Settings.png" width="230"> |
+
 ## Build
 
 ### Requirements
@@ -91,6 +101,4 @@ app/src/main/java/com/glassplayer/app/
 ```
 
 ## Notes
-
-- Not compiled in the environment it was written in (no SDK access there). If Gradle reports a compile error, it will be small and local; send it over and it can be fixed.
 - Many blurred surfaces cost GPU. On a slow device use Display options > Glass effect > Soft or Off.
